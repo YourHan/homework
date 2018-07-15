@@ -10,7 +10,7 @@ public class Jdbc {
 		// TODO Auto-generated method stub
 		try {
 			Class.forName("com.mysql.jdbc.exceptions");
-			String dbURL="jdbc:mysql:///mysql";
+			String dbURL="jdbc:mysql://127.0.0.1/hnnb11";
 			try {
 				Connection connection=DriverManager.getConnection(dbURL,"root" ,"root" );
 		} catch ( Exception e) {
