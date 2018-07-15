@@ -9,8 +9,8 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-	public class Myframe1 extends JFrame {
-		public Myframe1() {
+	public class Myframe extends JFrame {
+		public Myframe() {
 			this.setSize(300,400);
 			this.setTitle("...");
 			//FlowLayout flowLayout=new FlowLayout();
@@ -50,7 +50,7 @@ import javax.swing.JOptionPane;
 					}else if (command.equals("east")) {
 						button.setBackground(Color.yellow);
 					}else if (command.equals("center")) {
-						JOptionPane.showMessageDialog(Myframe1.this,"aa,bb,cc");
+						JOptionPane.showMessageDialog(Myframe.this,"aa,bb,cc");
 					}else if (command.equals("west")) {
 						button.setBackground(Color.PINK);
 						}
